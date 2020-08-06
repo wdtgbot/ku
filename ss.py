@@ -1,2 +1,2 @@
-a=${cookie}
+a='${cookie}'
 print(a)
