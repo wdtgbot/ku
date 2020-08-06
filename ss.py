@@ -1,2 +1,2 @@
-a=process.env.cookie1
+a=${cookie}
 print(a)
