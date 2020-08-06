@@ -1,4 +1,4 @@
-name: Auto Api Secret
+name: 搜书任务
 
 on: 
   release:
