@@ -1,1 +1,1 @@
-print('${cookie1}')
+print(${cookie1})
