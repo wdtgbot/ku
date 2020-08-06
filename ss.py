@@ -1,1 +1,2 @@
-print(`'${cookie1}'`)
+a=process.env.cookie1
+print(a)
