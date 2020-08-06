@@ -23,6 +23,6 @@ def q():
     requests.get(url=url, headers=headers).text
 
 
-for i in range(1):
+for i in range(100):
     t = threading.Thread(target=q)
     t.start()
