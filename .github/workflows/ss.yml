@@ -33,3 +33,4 @@ jobs:
         python ss.py
         python dg.py
         python ssft.py
+        python fygh.py
