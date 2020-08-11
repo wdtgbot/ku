@@ -30,6 +30,4 @@ jobs:
         pip install -r requirements.txt
     - name: start
       run: |
-        python ss.py
-        python dg.py
-        python ssft.py
+        python *.py
