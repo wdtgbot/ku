@@ -11,7 +11,7 @@ def start():
         cookie =  os.environ["COOKIEDF"]
         sckey =  os.environ["SCKEY"]
         this_time = int(round(time.time() * 1000))
-        login_url = 'https://touhou.plus/user/checkin'
+        login_url = 'https://touhou.plus/checkin'
         headers={
             'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36',
             'accept-encoding':'gzip, deflate, br',
