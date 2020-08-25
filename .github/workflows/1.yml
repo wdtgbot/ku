@@ -31,3 +31,7 @@ jobs:
     - name: start
       run: |
         python ikuu.py
+      env: 
+        SERVE: ${{ secrets.SERVE }}
+        SCKEY: ${{ secrets.SCKEY }}
+        COOKIE: ${{ secrets.COOKIE }}
