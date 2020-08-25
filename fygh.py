@@ -2,6 +2,8 @@ import re
 
 import requests
 
+import os
+
 cookie = os.environ["COOKIEFY"]
 def q():
     url1 = 'https://bbs.fygal.com/kf_fw_ig_index.php'
