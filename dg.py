@@ -1,6 +1,6 @@
 import requests
 
-cookie = "s_gkr8_f779_saltkey=d92JzEEz; s_gkr8_f779_lastvisit=1597041449; s_gkr8_f779_auth=a865OfIZJUwILqdlDNKa44rd1n0EgBzea2zsUWGEx4zvPhwOGpCu5n9vm2NI04RlQ5BLdmUgMj55D7oeEgKfRW4c1eoG; s_gkr8_f779_ulastactivity=fbd5gC6E0io9VINGewrSrKd3Lk6HFnrAM7Hp4P%2F9oksHcXiatPGe; s_gkr8_f779_connect_is_bind=0; s_gkr8_f779_forum_lastvisit=D_4_1597045075; s_gkr8_f779_visitedfid=4D116; s_gkr8_f779_smile=4D1; s_gkr8_f779_sid=044E55; s_gkr8_f779_lastact=1597045485%09home.php%09misc; s_gkr8_f779_sendmail=1"
+COOKIEFY: ${{ secrets.COOKIETS }}
 url = "https://www.tsdm39.net/plugin.php?id=np_cliworkdz:work"
 data1 = {"act": "clickad"}
 data2 = {"act": "getcre"}
