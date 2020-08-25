@@ -6,12 +6,12 @@ import re
 import time
 from urllib.parse import quote
 
-cookie =  os.environ["COOKIE"]
-sckey =  os.environ["SCKEY"]
 
 def start():
     try:
         s = requests.session()
+        cookie =  os.environ["COOKIE"]
+        sckey =  os.environ["SCKEY"]
         this_time = int(round(time.time() * 1000))
         login_url = 'https://ikuuu.co/user/checkin'
         headers={
