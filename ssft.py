@@ -27,7 +27,7 @@ def q():
         str(id) + "&tid=" + str(g) +
         "&extra=page%3D1&replysubmit=yes&infloat=yes&handlekey=fastpost&inajax=1"
     )
-    cookie1 = "yj0M_ae15_saltkey=n0ApaVFI; yj0M_ae15_lastvisit=1596979844; yj0M_ae15_nofavfid=1; yj0M_ae15_ulastactivity=1597107578%7C0; yj0M_ae15_auth=9b59UEOOK3RBCs7nRgyLdiALGtSadd9UxMW4s%2FFKgVzKfGfdevqdWo9Dq6IujzThw8jfYgLxOjpHRcRYwsIPaYQHfhg; yj0M_ae15_lastcheckfeed=934165%7C1597107578; yj0M_ae15_lip=183.217.116.98%2C1597107578; yj0M_ae15_noticeTitle=1; yj0M_ae15_st_t=934165%7C1597107838%7Ccab0232b14b4248ed253f202fa35d323; yj0M_ae15_forum_lastvisit=D_39_1597107838; yj0M_ae15_st_p=934165%7C1597107841%7Cb0528815456713c7801cf1a325b53e52; yj0M_ae15_viewid=tid_308299; yj0M_ae15_smile=1D1; yj0M_ae15_lastact=1597107852%09forum.php%09ajax"
+    cookie1 =os.environ["COOKIESS"]
     headers1 = {
         "user-agent":
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36",
