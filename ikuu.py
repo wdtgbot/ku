@@ -25,7 +25,7 @@ def start():
         print('访问结果：'+res)
     except Exception as e:
         print("地址访问失败，通知SERVER酱！")
-        requests.get('https://sc.ftqq.com/'+sckey'.send?text=' + quote('白嫖V2访问出现问题~'+time.strftime('%Y.%m.%d',time.localtime(time.time()))) +'&desp='+quote('异常代码：\n'+str(e)))
+        requests.get('https://sc.ftqq.com/'+'sckey'+'.send?text=' + quote('白嫖V2访问出现问题~'+time.strftime('%Y.%m.%d',time.localtime(time.time()))) +'&desp='+quote('异常代码：\n'+str(e)))
 def main_handler(event, context):
     return start()
 if __name__ == '__main__':
