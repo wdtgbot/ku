@@ -11,13 +11,14 @@ def start():
         cookie =  os.environ["COOKIEDF"]
         sckey =  os.environ["SCKEY"]
         this_time = int(round(time.time() * 1000))
-        login_url = 'https://touhou.plus/checkin'
+        login_url = 'https://touhou.plus/user/checkin'
         headers={
             'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36',
             'accept-encoding':'gzip, deflate, br',
             'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
             'accept-language':'zh-CN,zh;q=0.9,en;q=0.8',
-            'Cookie': cookie
+            'Cookie': cookie,
+            'refer':'https://touhou.plus/user'
         }
         res =s.post(login_url,headers=headers).text
         print('访问结果：'+res)
