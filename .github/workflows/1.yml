@@ -1,4 +1,4 @@
-name: github actions
+name: 签到
 
 on: 
   release:
