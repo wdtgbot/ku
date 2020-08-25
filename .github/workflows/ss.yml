@@ -34,3 +34,5 @@ jobs:
         python dg.py
         python ssft.py
         python fygh.py
+      env: 
+        COOKIEFY: ${{ secrets.COOKIEFY }}
