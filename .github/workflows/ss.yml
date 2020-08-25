@@ -38,3 +38,4 @@ jobs:
         COOKIEFY: ${{ secrets.COOKIEFY }}
         COOKIETS: ${{ secrets.COOKIETS }}
         COOKIESS: ${{ secrets.COOKIESS }}
+        COOKIEHS: ${{ secrets.COOKIEHS }}
