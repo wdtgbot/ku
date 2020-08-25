@@ -1,6 +1,5 @@
 import requests
-
-COOKIEFY: ${{ secrets.COOKIETS }}
+cookie = os.environ["COOKIETS"]
 url = "https://www.tsdm39.net/plugin.php?id=np_cliworkdz:work"
 data1 = {"act": "clickad"}
 data2 = {"act": "getcre"}
