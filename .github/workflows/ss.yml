@@ -36,3 +36,5 @@ jobs:
         python fygh.py
       env: 
         COOKIEFY: ${{ secrets.COOKIEFY }}
+        COOKIETS: ${{ secrets.COOKIETS }}
+        COOKIESS: ${{ secrets.COOKIESS }}
