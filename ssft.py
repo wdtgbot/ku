@@ -4,7 +4,7 @@ import time
 from urllib.parse import urlencode
 
 import requests
-
+import os
 
 def q():
     i = ["39", "40", "56", "68", "74", "77"]
