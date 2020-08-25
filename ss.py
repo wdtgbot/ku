@@ -1,6 +1,7 @@
 import random
 import threading
 import requests
+import os
 
 cookie = os.environ["COOKIESS"]
 headers1 = {
