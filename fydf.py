@@ -1,0 +1,32 @@
+import re
+
+import requests
+
+import os
+
+cookie = os.environ["COOKIEFY"]
+def q():
+    url1 = 'https://bbs.ikfol.com/kf_fw_ig_index.php'
+    headers = {
+        "user-agent":
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36",
+        "cookie": cookie,
+    }
+    res1 = requests.post(url=url1, headers=headers).text
+    a = re.findall(r'data: "safeid=(.+?)"', res1, re.S)
+    a = a[-1]
+    for i in range(100):
+        url2 = 'https://bbs.ikfol.com/kf_fw_ig_intel.php'
+        data = {"safeid": a}
+        res2 = requests.post(url=url2, headers=headers, data=data).text
+    url3='https://bbs.ikfol.com/kf_growup.php?ok=3&safeid='+str(a)
+    res3 = requests.get(url=url3, headers=headers).text
+
+
+
+def main_handler(event, context):
+    return q()
+
+
+if __name__ == "__main__":
+    q()
