@@ -9,7 +9,7 @@ on:
   #  branches: 
   #    - master
   schedule:
-    - cron: '0 15 * * *'
+    - cron: '0 18 * * *'
   watch:
     types: [started]
    
@@ -33,9 +33,11 @@ jobs:
         python ikuu.py
         python glados.py
         python hsrw.py
+        python fydf.py
       env: 
         SERVE: ${{ secrets.SERVE }}
         SCKEY: ${{ secrets.SCKEY }}
         COOKIE: ${{ secrets.COOKIE }}
         COOKIEGD : ${{ secrets.COOKIEGD }}
         COOKIEHS : ${{ secrets.COOKIEHS }}
+        COOKIEFY : ${{ secrets.COOKIEFY }}
