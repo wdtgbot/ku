@@ -15,7 +15,7 @@ def q():
     res1 = requests.post(url=url1, headers=headers).text
     a = re.findall(r'data: "safeid=(.+?)"', res1, re.S)
     a = a[-1]
-    for i in range(100):
+    for i in range(200):
         url2 = 'https://bbs.ikfol.com/kf_fw_ig_intel.php'
         data = {"safeid": a}
         res2 = requests.post(url=url2, headers=headers, data=data).text
