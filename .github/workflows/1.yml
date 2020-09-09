@@ -34,6 +34,7 @@ jobs:
         python glados.py
         python hsrw.py
         python fydf.py
+        python pt.py
       env: 
         SERVE: ${{ secrets.SERVE }}
         SCKEY: ${{ secrets.SCKEY }}
@@ -41,3 +42,4 @@ jobs:
         COOKIEGD : ${{ secrets.COOKIEGD }}
         COOKIEHS : ${{ secrets.COOKIEHS }}
         COOKIEFY : ${{ secrets.COOKIEFY }}
+        COOKIEPT : ${{ secrets.COOKIEPT }}
