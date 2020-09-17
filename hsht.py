@@ -50,7 +50,7 @@ def q():
     z = random.choice(replylist)
     data1 = {
         "posttime": str(int(time.time())),
-        "formhash": "37446b4c",
+        "formhash": "e23c3217",
         "usesig": "1",
         "message": z,
     }
