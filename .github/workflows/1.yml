@@ -31,7 +31,7 @@ jobs:
     - name: start
       run: |
         python ikuu.py
-        python glados.py
+        #python glados.py
         python hsrw.py
         python fydf.py
         python pt.py
