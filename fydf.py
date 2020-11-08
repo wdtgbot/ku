@@ -6,7 +6,7 @@ import os
 
 cookie = os.environ["COOKIEFY"]
 def q():
-    url1 = 'https://bbs.kforz.com/kf_fw_ig_index.php'
+    url1 = 'https://bbs.365gal.com/kf_fw_ig_index.php'
     headers = {
         "user-agent":
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36",
@@ -16,10 +16,10 @@ def q():
     a = re.findall(r'data: "safeid=(.+?)"', res1, re.S)
     a = a[-1]
     for i in range(200):
-        url2 = 'https://bbs.kforz.com/kf_fw_ig_intel.php'
+        url2 = 'https://bbs.365gal.com/kf_fw_ig_intel.php'
         data = {"safeid": a}
         res2 = requests.post(url=url2, headers=headers, data=data).text
-    url3='https://bbs.kforz.com/kf_growup.php?ok=3&safeid='+str(a)
+    url3='https://bbs.365gal.com/kf_growup.php?ok=3&safeid='+str(a)
     res3 = requests.get(url=url3, headers=headers).text
 
 
