@@ -5,7 +5,7 @@ import os
 
 
 def q():
-    url = 'https://www.93book.com/plugin.php?id=it618_award:ajax&ac=getaward&formhash=e23c3217&_=' + str(
+    url = 'https://www.93book.com/plugin.php?id=it618_award:ajax&ac=getaward&formhash=924c2c59&_=' + str(
         int(time.time()))
     url1 = 'https://www.93book.com/plugin.php?id=it618_award:ajax&formhash=37446b4c&ac=getcredits'
     cookie = os.environ["COOKIEHS"]
