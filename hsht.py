@@ -20,7 +20,7 @@ def q():
     c = str(res)
     zz = r'<tbody id="normalthread_.+?">(.+?)</tbody>'
     d = str(re.findall(zz, c, re.S))
-    zzz = r"mod=redirect&amp;tid=(.+?)&amp;goto=lastpost#lastpost"
+    zzz = r'mod=redirect&amp;tid=(.+?)&amp;goto=lastpost#lastpost'
     f = re.findall(zzz, d, re.S)
     g = str(f[-1])
     url1 = (
@@ -30,7 +30,7 @@ def q():
     )
     headers1 = {
         "user-agent":
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36",
         "cookie": cookie1,
         "Content-Type": "application/x-www-form-urlencoded",
     }
