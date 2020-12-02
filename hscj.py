@@ -5,9 +5,9 @@ import os
 
 
 def q():
-    url = 'https://www.93book.com/plugin.php?id=it618_award:ajax&ac=getaward&formhash=924c2c59&_=' + str(
+    url = 'https://www.93hsy.com/plugin.php?id=it618_award:ajax&ac=getaward&formhash=a7cfe854&_=' + str(
         int(time.time()))
-    url1 = 'https://www.93book.com/plugin.php?id=it618_award:ajax&formhash=37446b4c&ac=getcredits'
+    url1 = 'https://www.93hsy.com/plugin.php?id=it618_award:ajax&formhash=a7cfe854&ac=getcredits'
     cookie = os.environ["COOKIEHS"]
     headers = {
         'user-agent':
