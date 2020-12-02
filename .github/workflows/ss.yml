@@ -34,7 +34,7 @@ jobs:
         python dg.py
         #python ssft.py
         python fygh.py
-        python hsht.py
+        #python hsht.py
       env: 
         COOKIEFY: ${{ secrets.COOKIEFY }}
         COOKIETS: ${{ secrets.COOKIETS }}
