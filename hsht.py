@@ -10,7 +10,7 @@ cookie1 = os.environ["COOKIEHS"]
 def q():
     i = ["56", "49", "56", "47", "52", "2", "72", "76", "51"]
     id = random.choice(i)
-    url = "https://www.93book.com/forum-" + str(id) + "-1.html"
+    url = "https://www.93hsy.com/forum-" + str(id) + "-1.html"
     headers = {
         "user-agent":
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36",
@@ -24,7 +24,7 @@ def q():
     f = re.findall(zzz, d, re.S)
     g = str(f[-1])
     url1 = (
-        "https://www.93book.com/forum.php?mod=post&action=reply&fid=" +
+        "https://www.93hsy.com/forum.php?mod=post&action=reply&fid=" +
         str(id) + "&tid=" + str(g) +
         "&extra=page%3D1&replysubmit=yes&infloat=yes&handlekey=fastpost&inajax=1"
     )
@@ -50,7 +50,7 @@ def q():
     z = random.choice(replylist)
     data1 = {
         "posttime": str(int(time.time())),
-        "formhash": "924c2c59",
+        "formhash": "a7cfe854",
         "usesig": "1",
         "message": z,
     }
