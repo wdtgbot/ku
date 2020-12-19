@@ -1,4 +1,4 @@
-name: github actions
+name: 回帖
 
 on: 
   release:
@@ -34,9 +34,11 @@ jobs:
         python dg.py
         #python ssft.py
         python fygh.py
-        #python hsht.py
+        python cunhua.py
       env: 
         COOKIEFY: ${{ secrets.COOKIEFY }}
         COOKIETS: ${{ secrets.COOKIETS }}
         COOKIESS: ${{ secrets.COOKIESS }}
         COOKIEHS: ${{ secrets.COOKIEHS }}
+        COOKIECH: ${{ secrets.COOKIECH }}
+        FORMHASHCH: ${{ secrets.FORMHASHCH }}
