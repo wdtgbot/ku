@@ -5,6 +5,10 @@ import os
 import requests
 import sys
 
+
+
+
+
 path=sys.path[0]+r'/村花.txt'
 cookie =  os.environ["COOKIECH"]
 formhash =  os.environ["FORMHASHCH"]
@@ -50,7 +54,6 @@ def q():
     print(res1)
     with open(path, 'w+') as f:
         f.write(res1)
-    return q
 
 
 def main_handler(event, context):
