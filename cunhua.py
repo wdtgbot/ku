@@ -3,6 +3,7 @@ import re
 import time
 import os
 import requests
+import sys
 
 path=sys.path[0]+r'/村花.txt'
 cookie =  os.environ["COOKIECH"]
