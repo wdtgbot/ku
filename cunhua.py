@@ -4,6 +4,7 @@ import time
 import os
 import requests
 
+path=sys.path[0]+r'/村花.txt'
 cookie =  os.environ["COOKIECH"]
 formhash =  os.environ["FORMHASHCH"]
 def q():
@@ -46,6 +47,9 @@ def q():
     }
     res1 = requests.post(url=url2, headers=headers1, data=data1).text
     print(res1)
+    with open(path, 'w+') as f:
+        f.write(res1)
+    return q
 
 
 def main_handler(event, context):
