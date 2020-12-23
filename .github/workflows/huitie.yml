@@ -43,3 +43,7 @@ jobs:
         git config --global user.name AutoupdateRobot
         git add .
         git commit -m "更新输出日志" -a
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
