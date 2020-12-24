@@ -39,8 +39,8 @@ jobs:
         FORMHASHCH: ${{ secrets.FORMHASHCH }}
     - name: Commit #上传新的refresh_token到仓库
       run: |
-        git config --global user.email AutoupdateRobot@email.com
-        git config --global user.name AutoupdateRobot
+        git config --global user.email actionbot@email.com
+        git config --global user.name actionbot
         git add .
         git commit -m "更新输出日志" -a
     - name: Push changes
