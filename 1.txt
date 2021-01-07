@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<root><![CDATA[<div class="tip">
-<dt id="messagetext">
-<p style="padding: .05rem 0;">非常感谢，回复发布成功，现在将转入主题页，请稍候……<br /><a href="forum-48-1.html">[ 点击这里转入主题列表 ]</a><script type="text/javascript" reload="1">if(typeof succeedhandle_fastpost=='function') {succeedhandle_fastpost('forum.php?mod=viewthread&tid=161234&pid=11626002&page=4&extra=&mobile=2#pid11626002', '非常感谢，回复发布成功，现在将转入主题页，请稍候……[ 点击这里转入主题列表 ]', {'fid':'48','tid':'161234','pid':'11626002','from':'','sechash':''});}</script></p>
-        </dt>
-</div>
-]]></root>
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html>
+<head>
+	<title>www.cunhua.lat - Mobile System Error</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="ROBOTS" content="NOINDEX,NOFOLLOW,NOARCHIVE" />
+	<style type="text/css">
+	<!--
+	body { background-color: white; color: black; }
+	UL, LI { margin: 0; padding: 2px; list-style: none; }
+	#message   { color: black; background-color: #FFFFCC; }
+	#bodytitle { font: 11pt/13pt verdana, arial, sans-serif; height: 20px; vertical-align: top; }
+	.bodytext  { font: 8pt/11pt verdana, arial, sans-serif; }
+	.help  { font: 12px verdana, arial, sans-serif; color: red;}
+	.red  {color: red;}
+	a:link     { font: 8pt/11pt verdana, arial, sans-serif; color: red; }
+	a:visited  { font: 8pt/11pt verdana, arial, sans-serif; color: #4e4e4e; }
+	-->
+	</style>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" id="container">
+<tr>
+	<td id="bodytitle" width="100%">Discuz! Mobile System Error </td>
+</tr><tr><td><hr size="1"/></td></tr>
+<tr><td class="bodytext">Error messages: </td></tr>
+<tr>
+	<td class="bodytext" id="message">
+		<ul> <li>您当前的访问请求当中含有非法字符，已经被系统拒绝</li></ul>
+	</td>
+</tr><tr>
+	<td class="help"><br /><a href="http://www.cunhua.lat">www.cunhua.lat</a> 此错误给您带来的不便我们深感歉意</td>
+</tr>
+</table>
+</body>
+</html>
