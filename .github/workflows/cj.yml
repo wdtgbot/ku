@@ -35,3 +35,4 @@ jobs:
         SERVE: ${{ secrets.SERVE }}
         SCKEY: ${{ secrets.SCKEY }}
         COOKIEHS: ${{ secrets.COOKIEHS }}
+        HASHHS: ${{ secrets.HASHHS }}
