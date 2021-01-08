@@ -7,6 +7,7 @@ import requests
 import os
 
 cookie1 = os.environ["COOKIEHS"]
+formhash = os.environ["HASHHS"] 
 def q():
     i = ["56", "49", "56", "47", "52", "2", "72", "76", "51"]
     id = random.choice(i)
@@ -50,7 +51,7 @@ def q():
     z = random.choice(replylist)
     data1 = {
         "posttime": str(int(time.time())),
-        "formhash": "a7cfe854",
+        "formhash": formhash,
         "usesig": "1",
         "message": z,
     }
