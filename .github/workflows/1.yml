@@ -30,11 +30,8 @@ jobs:
         pip install -r requirements.txt
     - name: start
       run: |
-        python ikuu.py
-        #python glados.py
         python hsrw.py
         python fydf.py
-        python pt.py
       env: 
         SERVE: ${{ secrets.SERVE }}
         SCKEY: ${{ secrets.SCKEY }}
