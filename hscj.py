@@ -3,9 +3,9 @@ import time
 import requests
 import os
 
-
+formhash = os.environ["HASHHS"] 
 def q():
-    url = 'https://www.93hsy.com/plugin.php?id=it618_award:ajax&ac=getaward&formhash=a7cfe854&_=' + str(
+    url = 'https://www.93hsy.com/plugin.php?id=it618_award:ajax&ac=getaward&formhash='+str(formhash)+'&_=' + str(
         int(time.time()))
     url1 = 'https://www.93hsy.com/plugin.php?id=it618_award:ajax&formhash=a7cfe854&ac=getcredits'
     cookie = os.environ["COOKIEHS"]
