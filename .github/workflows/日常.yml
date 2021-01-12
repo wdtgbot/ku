@@ -5,6 +5,7 @@ on:
    branches: master
    paths: 
      - '日常/**'
+     - '.github/workflows/日常.yml'
   schedule:
     - cron: '0,5,10,15,20,25,30,35,40,45,50,55 * * * *'
   watch:
