@@ -2,8 +2,8 @@
 <root><![CDATA[<!-- userinfo start -->
 <div class="loginbox login_pop">
 <h2 class="log_tit"><a href="javascript:;" onclick="popup.close();"><span class="icon_close y">&nbsp;</span></a>登录</h2>
-<form id="loginform" method="post" action="member.php?mod=logging&amp;action=login&amp;loginsubmit=yes&amp;loginhash=LEOsF&amp;mobile=2" onsubmit="pwmd5('password3_LEOsF');" >
-<input type="hidden" name="formhash" id="formhash" value='7af6ec4c' />
+<form id="loginform" method="post" action="member.php?mod=logging&amp;action=login&amp;loginsubmit=yes&amp;loginhash=LBsqq&amp;mobile=2" onsubmit="pwmd5('password3_LBsqq');" >
+<input type="hidden" name="formhash" id="formhash" value='f2949614' />
 <input type="hidden" name="referer" id="referer" value="https://www.cunhua.guru" />
 <input type="hidden" name="fastloginfield" value="username">
 <input type="hidden" name="cookietime" value="2592000">
@@ -19,7 +19,7 @@
 </span>
 <span class="icon-arrow">&nbsp;</span>
 </span>
-<select id="questionid_LEOsF" name="questionid" class="sel_list">
+<select id="questionid_LBsqq" name="questionid" class="sel_list">
 <option value="0" selected="selected">安全提问(未设置请忽略)</option>
 <option value="1">母亲的名字</option>
 <option value="2">爷爷的名字</option>
@@ -31,20 +31,20 @@
 </select>
 </div>
 </li>
-<li class="bl_none answerli" style="display:none;"><input type="text" name="answer" id="answer_LEOsF" class="px p_fre" size="30" placeholder="答案"></li>
+<li class="bl_none answerli" style="display:none;"><input type="text" name="answer" id="answer_LBsqq" class="px p_fre" size="30" placeholder="答案"></li>
 </ul>
 <div class="sec_code vm">
-<input name="seccodehash" type="hidden" value="SCd4J" />
-<input type="text" class="txt px vm" style="ime-mode:disabled;width:115px;background:white;" autocomplete="off" value="" id="seccodeverify_SCd4J" name="seccodeverify" placeholder="验证码" fwin="seccode">
-        <img src="misc.php?mod=seccode&amp;update=12222&amp;idhash=SCd4J&amp;mobile=2" class="seccodeimg"/>
+<input name="seccodehash" type="hidden" value="SARy4" />
+<input type="text" class="txt px vm" style="ime-mode:disabled;width:115px;background:white;" autocomplete="off" value="" id="seccodeverify_SARy4" name="seccodeverify" placeholder="验证码" fwin="seccode">
+        <img src="misc.php?mod=seccode&amp;update=64249&amp;idhash=SARy4&amp;mobile=2" class="seccodeimg"/>
 </div>
 <script type="text/javascript">
 (function() {
 $('.seccodeimg').on('click', function() {
-$('#seccodeverify_SCd4J').attr('value', '');
+$('#seccodeverify_SARy4').attr('value', '');
 var tmprandom = 'S' + Math.floor(Math.random() * 1000);
 $('.sechash').attr('value', tmprandom);
-$(this).attr('src', 'misc.php?mod=seccode&update=12222&idhash='+ tmprandom +'&mobile=2');
+$(this).attr('src', 'misc.php?mod=seccode&update=64249&idhash='+ tmprandom +'&mobile=2');
 });
 })();
 </script>
