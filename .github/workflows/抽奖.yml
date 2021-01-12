@@ -6,6 +6,7 @@ on:
   push:
     paths: 
       - '抽奖/**'
+      - '.github/workflows/抽奖.yml'
     tags:
     - 'v*'
   #  branches: 
