@@ -1,16 +1,12 @@
 name: 抽奖
 
 on: 
-  release:
-    types: [published]
   push:
     paths: 
       - '抽奖/**'
       - '.github/workflows/抽奖.yml'
-    tags:
-    - 'v*'
-  #  branches: 
-  #    - master
+    branches: 
+      - master
   schedule:
     - cron: '30 8,9,16,17 * * *'
   watch:
