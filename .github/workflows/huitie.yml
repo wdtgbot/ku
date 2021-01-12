@@ -27,11 +27,11 @@ jobs:
         pip install -r requirements.txt
     - name: start
       run: |
-        #python ss.py
-        python dg.py
-        #python ssft.py
-        python fygh.py
-        python cunhua.py
+        #python 日常/ss.py
+        python 日常/dg.py
+        #python 日常/ssft.py
+        python 日常/fygh.py
+        python 日常/cunhua.py
       env: 
         COOKIEFY: ${{ secrets.COOKIEFY }}
         COOKIETS: ${{ secrets.COOKIETS }}
