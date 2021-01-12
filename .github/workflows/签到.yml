@@ -1,16 +1,12 @@
 name: 签到
 
 on: 
-  release:
-    types: [published]
   push:
     paths: 
       - '签到/**'
       - '.github/workflows/签到.yml'
-    tags:
-    - 'v*'
-  #  branches: 
-  #    - master
+    branches: 
+      - master
   schedule:
     - cron: '0 18 * * *'
   watch:
