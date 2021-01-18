@@ -33,6 +33,7 @@ jobs:
         #python 日常/ssft.py
         python 日常/fygh.py
         python 日常/cunhua.py
+        python 日常/ss.py
       env: 
         COOKIEFY: ${{ secrets.COOKIEFY }}
         COOKIETS: ${{ secrets.COOKIETS }}
