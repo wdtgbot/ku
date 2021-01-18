@@ -34,10 +34,12 @@ jobs:
         python 日常/fygh.py
         python 日常/cunhua.py
         python 日常/ss.py
+        python 日常/ss1.py
       env: 
         COOKIEFY: ${{ secrets.COOKIEFY }}
         COOKIETS: ${{ secrets.COOKIETS }}
         COOKIESS: ${{ secrets.COOKIESS }}
+        COOKIESS1: ${{ secrets.COOKIESS1 }}
         COOKIEHS: ${{ secrets.COOKIEHS }}
         COOKIECH: ${{ secrets.COOKIECH }}
         FORMHASHCH: ${{ secrets.FORMHASHCH }}
