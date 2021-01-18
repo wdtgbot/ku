@@ -35,7 +35,7 @@ def q():
     "user-agent":
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36",
     "cookie":cookie
-}
+   }
     url3 = "http://txt.soushupan.xyz:18866/home.php?mod=task&do=draw&id=2"
     res3 = requests.post(url=url3, headers=headers3).text
 
