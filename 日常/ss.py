@@ -9,7 +9,7 @@ headers1 = {
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36",
     "cookie":cookie
 }
-url1 = "https://bbs.kansoushu.com/home.php?mod=task&do=apply&id=2"
+url1 = "http://txt.soushupan.xyz:18866/home.php?mod=task&do=parter&id=2&inajax=1&ajaxtarget=ajaxparter"
 res1 = requests.post(url=url1, headers=headers1).text
 
 
@@ -19,7 +19,7 @@ def q():
     x = random.randint(0, 255)
     y = random.randint(0, 255)
     ip = str(m) + "." + str(n) + "." + str(x) + "." + str(y)
-    url = 'https://bbs.kansoushu.com/forum.php?fromuid=934165'
+    url = 'http://txt.soushupan.xyz:18866/?fromuid=941145'
     headers = {
         "user-agent":
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36",
