@@ -6,10 +6,10 @@ import os
 cookie = os.environ["COOKIESS"]
 headers1 = {
     "user-agent":
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36",
     "cookie":cookie
 }
-url1 = "http://txt.soushupan.xyz:18866/home.php?mod=task&do=parter&id=2&inajax=1&ajaxtarget=ajaxparter"
+url1 = "http://txt.soushupan.xyz:18866/home.php?mod=task&do=apply&id=2"
 res1 = requests.post(url=url1, headers=headers1).text
 
 
@@ -39,8 +39,8 @@ for i in range(100):
 
 headers3 = {
     "user-agent":
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36",
     "cookie":cookie
 }
-url3 = "https://bbs.kansoushu.com/home.php?mod=task&do=draw&id=2"
+url3 = "http://txt.soushupan.xyz:18866/home.php?mod=task&do=draw&id=2"
 res3 = requests.post(url=url3, headers=headers3).text
