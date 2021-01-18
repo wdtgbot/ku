@@ -40,7 +40,7 @@ def q():
     res3 = requests.post(url=url3, headers=headers3).text
 
 
-for i in range(100):
+for i in range(150):
     t = threading.Thread(target=q)
     t.start()
 
