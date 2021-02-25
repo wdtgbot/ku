@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root><![CDATA[<div class="tip">
 <dt id="messagetext">
-<p style="padding: .05rem 0;">非常感谢，回复发布成功，现在将转入主题页，请稍候……<br /><a href="forum-46-1.html">[ 点击这里转入主题列表 ]</a><script type="text/javascript" reload="1">if(typeof succeedhandle_fastpost=='function') {succeedhandle_fastpost('forum.php?mod=viewthread&tid=219521&pid=12631147&page=1&extra=&mobile=2#pid12631147', '非常感谢，回复发布成功，现在将转入主题页，请稍候……[ 点击这里转入主题列表 ]', {'fid':'46','tid':'219521','pid':'12631147','from':'','sechash':''});}</script></p>
+<p style="padding: .05rem 0;">非常感谢，回复发布成功，现在将转入主题页，请稍候……<br /><a href="forum-40-1.html">[ 点击这里转入主题列表 ]</a><script type="text/javascript" reload="1">if(typeof succeedhandle_fastpost=='function') {succeedhandle_fastpost('forum.php?mod=viewthread&tid=205033&pid=12631451&page=10&extra=&mobile=2#pid12631451', '非常感谢，回复发布成功，现在将转入主题页，请稍候……[ 点击这里转入主题列表 ]', {'fid':'40','tid':'205033','pid':'12631451','from':'','sechash':''});}</script></p>
         </dt>
 </div>
 ]]></root>
