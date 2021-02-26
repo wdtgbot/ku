@@ -30,7 +30,7 @@ jobs:
     - name: start
       run: |
         python 抽奖/hscj.py
-        python 抽奖/hsrw.py
+        #python 抽奖/hsrw.py
       env: 
         SERVE: ${{ secrets.SERVE }}
         SCKEY: ${{ secrets.SCKEY }}
