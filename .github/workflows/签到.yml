@@ -38,3 +38,5 @@ jobs:
         COOKIEHS : ${{ secrets.COOKIEHS }}
         COOKIEFY : ${{ secrets.COOKIEFY }}
         COOKIEPT : ${{ secrets.COOKIEPT }}
+        COOKIECH : ${{ secrets.COOKIECH}}
+        FORMHASHCH : ${{ secrets.FORMHASHCH }}
