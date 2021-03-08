@@ -30,6 +30,7 @@ jobs:
     - name: start
       run: |
         python 签到/fydf.py
+        python 签到/cunhua.py
       env: 
         SERVE: ${{ secrets.SERVE }}
         SCKEY: ${{ secrets.SCKEY }}
