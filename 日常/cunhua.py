@@ -15,7 +15,7 @@ formhash =  os.environ["FORMHASHCH"]
 def q():
     i = ["40", "38", "39", "41", "42", "46", "47", "48", "101"]
     id = random.choice(i)
-    url = "https://www.cunhua.guru/forum-" + str(id) + "-" + str(
+    url = "https://www.cunhua.casa/forum-" + str(id) + "-" + str(
         random.randint(1, 10)) + ".html"
     headers = {
         "user-agent":
@@ -28,14 +28,14 @@ def q():
     d = re.findall(zz, c, re.S)
     g = str(d[-1])
     print(g)
-    url1 = "https://www.cunhua.guru/forum.php?mod=viewthread&tid=" + str(g)
+    url1 = "https://www.cunhua.casa/forum.php?mod=viewthread&tid=" + str(g)
     res2 = requests.get(url=url1, headers=headers).text
     zzz = r'postmessage_.+?>(.+?)<'
     q = re.findall(zzz, res2, re.S)
     s = str(q[-2]).strip()
     print(s)
     url2 = (
-        "https://www.cunhua.guru/forum.php?mod=post&action=reply&fid=" +
+        "https://www.cunhua.casa/forum.php?mod=post&action=reply&fid=" +
         str(id) + "&tid=" + str(g) +
         "&extra=&replysubmit=yes&mobile=2&handlekey=fastpost&loc=1&inajax=1")
     headers1 = {
