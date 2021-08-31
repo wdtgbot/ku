@@ -1,0 +1,1 @@
+rclone copy {onedir} {twodir}  -v --stats-one-line --stats=3s --log-file=\"{name}.log\" --transfers=8 --cache-chunk-size=20M --ignore-existing -u --ignore-errors --checkers=8 
